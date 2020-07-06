@@ -10,25 +10,31 @@ body{
 /* menu dell'accesso */
 header{
   width: 100%;
-  height: 100px;
 }
 
 .container{
-  background-color: #F4F9FD;
+  margin: auto;
 }
 .clearfix::after{
   content: "";
-  display: table;
+  display: block;
   clear: both;
 }
 
 .language li{
   display: inline-block;
 }
+
 .header-top{
+  width: 100%;
+  height: auto;
+  background-color: #F4F9FD;
+  /* background-color: red; */
+}
+.sx-header-top{
   float: left;
   width: 50%;
-  padding: 20px;
+
 }
 
 
@@ -52,75 +58,95 @@ header{
 .access-search{
   float: left;
   width: 50%;
-  padding: 20px;
   text-align: right;
 }
 
-/* menu dell'accesso */
-
-/* menu di navigazione */
 .language{
   list-style: none;
+  margin: 10px 20px;
 }
+/* menu dell'accesso */
+
 .rule-menu{
   border-bottom: 1px solid black;
 }
-.box-menu{
+
+/* menu di navigazione */
+
+.nav-menu {
   width: 100%;
-  background-color: green;
+  height: 50px;
 }
+
 .logo {
   float: left;
-  padding: 20px;
   width: 20%;
   vertical-align: middle;
+  margin-top: 10px;
+  margin-left: 5%;
+
 }
 
 .nav-sez li{
   display: inline-block;
-  margin-left: 10px;
+  list-style: none;
   text-transform: capitalize;
+  line-height: 50px;
 }
 .menu-list {
   float: left;
-  width: 80%;
-  padding: 20px;
+  width: 70%;
+  margin-left: 3%;
   text-align: right;
 }
 /* menu di navigazione */
 
 /* header banner */
 .header-banner{
+  position: relative;
   width: 100%;
+  height: 500px;
+  background-color: #FFF3EE;
 }
 
-.pic{
-  position: relative;
-}
 .info-img{
   position: absolute;
-  width: 100%;
+  width: 80%;
+  margin-left: 20%;
 }
+
+.info-pic{
+  position: absolute;
+  width: 60%;
+}
+
+.box-azzurro{
+  position: absolute;
+  margin-top: 34%;
+  width: 100%;
+  height: 64px;
+  background-color: #AFEBE4;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
 .title {
-position: absolute;
-font-size: 60px;
-padding: 20px;
-margin-top: 80px;
-width: 60%;
-color: #33475B;
+  width: 70%;
+  margin-left: 5%;
+  padding-top: 5%;
+  font-size: 50px;
+  color: #33475B;
 }
 .sottotitle{
-  position: absolute;
-  font-size: 12px;
   width: 50%;
-  padding: 20px;
-  margin-top: 250px;
+  margin-left: 5%;
+  padding-top: 2%;
+  font-size: 12px;
   color: #33475B;
 }
 .botton{
-  position: absolute;
-  padding: 20px;
-  margin-top: 300px;
+  line-height: 5;
+
 }
 
 .btn{
@@ -129,16 +155,28 @@ color: #33475B;
   border: none;
   border-radius: 5px;
   color: #fff;
+  margin-left: 5%;
 }
 
 .info-title{
-  position: absolute;
   font-size: 12px;
   width: 50%;
-  padding: 20px;
-  margin-top: 350px;
+  margin-left: 5%;
   color: #33475B;
 }
 /* header banner */
 
 /* sezione info */
+.service{
+  width: 100%;
+  height: 800px;
+  /* background-color: #F4F9FD; */
+  background-color: green;
+}
+
+.box-info{
+  width: 100%;
+  height: 800px;
+  /* background-color: #F4F9FD; */
+  background-color: orange;
+}
