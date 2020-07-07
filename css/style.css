@@ -13,6 +13,7 @@ header{
 }
 
 .container{
+  position: relative;
   margin: auto;
 }
 .clearfix::after{
@@ -290,8 +291,7 @@ header{
 
 .number-container-gradient{
   width: 100%;
-  height: 400px;
-  position: absolute;
+  /* position: absolute; */
   background: rgb(105,205,228);
   background: linear-gradient(90deg, rgba(105,205,228,1) 0%, rgba(64,206,218,1) 26%, rgba(0,249,255,1) 89%);
 
@@ -312,7 +312,92 @@ header{
 /* griglia */
 
 .box-griglia-1{
-  width: 200px;
+  float: left;
+  width: 230px;
   height: 200px;
+  text-align: center;
+  padding: 30px;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.box-griglia-2{
+  float: left;
+  width: 230px;
+  height: 200px;
+  text-align: center;
+  padding: 30px;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+.box-griglia-3{
+  float: left;
+  width: 230px;
+  height: 200px;
+  text-align: center;
+  padding: 30px;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+
+}
+.box-griglia-4{
+  float: left;
+  width: 230px;
+  height: 200px;
+  text-align: center;
+  padding: 30px;
+  border-bottom: 1px solid #fff;
+}
+.img-iconmarket{
+  height: 35px;
+}
+.box-griglia-5{
+  float: left;
+  width: 230px;
+  height: 200px;
+  text-align: center;
+  padding: 30px;
+  border-right: 1px solid #fff;
+}
+.box-griglia-6{
+  float: left;
+  width: 230px;
+  height: 200px;
+  text-align: center;
+  padding: 30px;
+  border-right: 1px solid #fff;
+}
+
+.box-griglia-7{
+  float: left;
+  width: 230px;
+  height: 200px;
+  text-align: center;
+  padding: 30px;
+  border-right: 1px solid #fff;
+}
+.box-griglia-8{
+  float: left;
+  width: 230px;
+  height: 200px;
+  text-align: center;
+  padding: 30px;
+}
+
+/* fine griglia */
+.sponsor{
+  position: absolute;
+  width: 100%;
+  height: 500px;
   background-color: red;
+}
+.sponsor-container{
+  width: 75%;
+  margin: auto;
+}
+
+.text-sponsor{
+  float: left;
+  width: 20%;
+  margin: 20px;
 }
