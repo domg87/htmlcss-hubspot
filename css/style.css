@@ -14,6 +14,7 @@ header{
 
 .container{
   position: relative;
+  width: 80%;
   margin: auto;
 }
 .clearfix::after{
@@ -74,31 +75,23 @@ header{
 
 /* menu di navigazione */
 
-.nav-menu {
-  width: 100%;
-  height: 50px;
+.nav-menu{
+  padding: 10px;
 }
 
 .logo {
   float: left;
   width: 20%;
   vertical-align: middle;
-  margin-top: 10px;
-  margin-left: 5%;
-
 }
 
 .nav-sez li{
   display: inline-block;
   list-style: none;
   text-transform: capitalize;
-  line-height: 50px;
 }
 .menu-list {
-  float: left;
-  width: 70%;
-  margin-left: 3%;
-  text-align: right;
+  float: right;
 }
 /* menu di navigazione */
 
@@ -106,26 +99,23 @@ header{
 .header-banner{
   position: relative;
   width: 100%;
-  height: 500px;
   background-color: #FFF3EE;
 }
 
 .info-img{
   position: absolute;
-  width: 80%;
-  margin-left: 20%;
+  width: 100%;
 }
 
 .info-pic{
   position: absolute;
-  width: 60%;
 }
 
 .box-azzurro{
   position: absolute;
-  margin-top: 34%;
+  margin-top: 42%;
   width: 100%;
-  height: 64px;
+  height: 124px;
   background-color: #AFEBE4;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
@@ -167,10 +157,13 @@ header{
 /* header banner */
 
 /* sezione info */
-.service{
-  position: relative;
+.background{
   width: 100%;
   background-color: #F4F9FD;
+}
+
+.service{
+
 }
 
 .box-info{
@@ -389,15 +382,33 @@ header{
   position: absolute;
   width: 100%;
   height: 500px;
-  background-color: red;
 }
 .sponsor-container{
-  width: 75%;
+  width: 80%;
   margin: auto;
 }
 
 .text-sponsor{
   float: left;
   width: 20%;
-  margin: 20px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.sponsor-title{
+  font-size: 30px;
+  margin-top: 15px;
+  color: #33475B;
+}
+
+.sponsor-paragraf{
+  font-size: 12px;
+  margin-top: 15px;
+  color: #33475B;
+}
+.logo-sponsor{
+  float: left;
+  width: 60%;
+}
+.loghi img{
+  height: 15px;
 }
