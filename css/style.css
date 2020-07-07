@@ -199,25 +199,27 @@ header{
   list-style: none;
 }
 .img-free ul{
-  width: 30%;
+  display: inline-block;
 }
 
 .img-crm{
-  float: left;
   width: 130px;
   padding: 15px;
+  margin: 15px;
 }
 
 .free-botton .btn{
   float: left;
   width: 80px;
   font-size: 10px;
-
+  margin: 15px;
 }
 
 .box-free-title{
   float: right;
-  width: 60%;
+  width: 70%;
+  margin-top: 50px;
+  line-height: 2;
 }
 
 .h2-title{
@@ -228,4 +230,57 @@ header{
 .p-paragraf{
   font-size: 10px;
   color: #33475B;
+}
+
+.ul-list-free-title li{
+  display: inline-block;
+}
+
+.ul-list-free-title li{
+  margin-right: 20px;
+}
+.fa-chevron-circle-down{
+  color: #FE775A;
+}
+
+.box-3section{
+  width: 75%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.box-1{
+  float: left;
+  width: 300px;
+  margin-right: 28px;
+  text-align: center;
+  line-height: 2;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.box-2{
+  float: left;
+  width: 300px;
+  margin-right: 0px;
+  text-align: center;
+  line-height: 2;
+  padding: 20px;
+  background-color: #fff;
+}
+.box-3{
+  float: left;
+  width: 300px;
+  margin-left: 24px;
+  text-align: center;
+  line-height: 2;
+  padding: 20px;
+  background-color: #fff;
+}
+.ul-list-box3-section{
+  list-style: none;
+}
+.img-box{
+  height: 80px;
 }
