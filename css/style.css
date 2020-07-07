@@ -286,10 +286,6 @@ header{
 
 
 .number-container-gradient{
-  width: 100%;
-  /* position: absolute; */
-  background: rgb(105,205,228);
-  background: linear-gradient(90deg, rgba(105,205,228,1) 0%, rgba(64,206,218,1) 26%, rgba(0,249,255,1) 89%);
 
 }
 .box-number{
@@ -304,6 +300,14 @@ header{
 }
 
 /* griglia */
+
+.background-blu{
+  width: 100%;
+  /* position: absolute; */
+  background: rgb(105,205,228);
+  background: linear-gradient(90deg, rgba(105,205,228,1) 0%, rgba(64,206,218,1) 26%, rgba(0,249,255,1) 89%);
+
+}
 
 .box-griglia-1{
   float: left;
