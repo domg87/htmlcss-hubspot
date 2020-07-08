@@ -99,8 +99,7 @@ header{
 .header-banner{
   position: relative;
   width: 100%;
-  height: 139vh;
-  background-color: #FFF3EE;
+  height: 97vh;
 }
 
 .info-img{
@@ -110,6 +109,7 @@ header{
 
 .info-pic{
   position: absolute;
+  margin-top: 10%;
 }
 
 .box-azzurro{
@@ -380,11 +380,7 @@ header{
 .background-3{
   width: 100%
 }
-.sponsor{
-  position: absolute;
-  width: 100%;
-  height: 500px;
-}
+
 .sponsor-container{
   width: 75%;
   margin: auto;
@@ -393,7 +389,7 @@ header{
 .text-sponsor{
   float: left;
   width: 25%;
-  margin-top: 20px;
+  margin-top: 4%;
 }
 .sponsor-title{
   font-size: 40px;
@@ -411,6 +407,7 @@ header{
   width: 60%;
 }
 .loghi img{
+  vertical-align: middle;
   width: 20%;
   margin-right: 24px;
   margin-top: 30px;
@@ -418,11 +415,80 @@ header{
 .info-sponsor{
   float: left;
   width: 50%;
-  margin-top: 20px;
+  margin-top: 5%;
   line-height: 2;
 }
 .woman{
   float: right;
   width: 20%;
   margin-top: 20px;
+}
+/* fine parte sponsor */
+
+/* inizio footer */
+.background-footer{
+  width: 100%;
+  background-color: #32495B;
+}
+.footer-list{
+  width: 75%;
+  margin: auto;
+}
+.list-1, .list-2, .list-3, .list-4{
+  float: left;
+  padding-top: 4%;
+  width: 25%;
+  text-transform: capitalize;
+  color: #fff;
+}
+.style li{
+  list-style: none;
+  line-height: 2;
+}
+.title-footer{
+  margin-bottom: 7%;
+}
+.btn-footer{
+  margin-top: 10px;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  color: #32495B;
+}
+.icon-social li{
+  display: inline-block;
+  margin-right: 23px;
+  margin-top: 15px;
+}
+/* fine social */
+
+.select-language{
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.footer{
+  width: 75%;
+  margin: auto;
+}
+.copyright-footer{
+  width: 75%;
+  margin: auto;
+  padding: 30px 0;
+}
+.logo-copyright{
+  float: left;
+}
+h4{
+  color: #fff;
+}
+.legal-copyright{
+  float: right;
+  width: 27%;
+}
+.footer-text{
+  display: inline-block;
+  margin-right: 20px;
 }
